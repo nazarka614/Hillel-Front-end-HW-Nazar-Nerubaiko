@@ -1,0 +1,65 @@
+cat > css/style.css << 'EOF'
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#d0d0d0;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+td{
+    border-bottom:1px solid #E0E0E0;
+}
+
+.email-container{
+    width:620px;
+    margin:40px auto;
+    padding:20px 28px 28px;
+    background:#ffffff;
+}
+
+/* text styles */
+.text{
+    font-size:15px;
+    color:#667085;
+}
+
+.text-bold{
+    font-size:16px;
+    font-weight:600;
+    color:#101828;
+}
+
+.main-title{
+    font-size:28px;
+    font-weight:600;
+    color:#101828;
+}
+
+/* table styles */
+.table-row{
+    height:58px;
+}
+
+.item-column{
+    width:380px;
+    color:#667085;
+}
+
+.right-column{
+    text-align:right;
+    color:#101828;
+}
+
+.no-border{
+    border:none;
+}
+EOF
